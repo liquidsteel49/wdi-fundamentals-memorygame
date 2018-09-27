@@ -37,6 +37,11 @@ p {
 a {
 	margin: 0 20px;
 	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-color: orange;
 }
 
 img {
@@ -58,6 +63,17 @@ nav {
 	padding: 20px 0;
 	text-transform: uppercase;
 	margin: 0 auto;
+	border-bottom: 2px solid transparent;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0d2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
 }
 
 .nav-link {
@@ -66,4 +82,33 @@ nav {
 
 .header-title {
 	color: #ffffff;
+}
+
+.about {
+	color: #ffff00;
+}
+
+.copyright {
+	font-family: Raleway;
+	float: left;
+}
+
+.message {
+	font-family: Raleway;
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #f15b31;
+	font-weight: 700;
+
 }
