@@ -2,6 +2,42 @@ body {
 	text-align: center;
 }
 
+h1 {
+	font-family: Raleway;
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font size: 45px;
+	text-transform: uppercase;
+}
+
 h2 {
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Droid Serif";
+	line-height: 26px;
+	font-size: 20px;
+}
+
+.noLine{
 	text-decoration: none;
+}
+
+.instructions {
+	font-family: Raleway;
+	color: #0d2c40
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.game {
+	font-family: Raleway;
+	color: #f15b31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
 }
