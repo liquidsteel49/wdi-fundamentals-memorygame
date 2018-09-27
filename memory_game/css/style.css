@@ -1,5 +1,12 @@
 body {
 	text-align: center;
+	margin: 0;
+}
+
+header {
+	background-color: #f15b31;
+	color: #ffffff;
+	padding: 30px 20px;
 }
 
 h1 {
@@ -9,35 +16,54 @@ h1 {
 	font-weight: 400;
 	font size: 45px;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 h2 {
+	font-family: Raleway;
+	color: #0d2c40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
 	text-transform: uppercase;
 }
 
 p {
 	font-family: "Droid Serif";
 	line-height: 26px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
-.noLine{
+a {
+	margin: 0 20px;
 	text-decoration: none;
 }
 
-.instructions {
-	font-family: Raleway;
-	color: #0d2c40
-	letter-spacing: 1px;
-	font-weight: 600;
-	font-size: 20px;
-	text-decoration: none;
+img {
+	margin: 40px 8px 0px 8px;
 }
 
-.game {
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+nav {
 	font-family: Raleway;
+	background-color: #00a6b3;
 	color: #f15b31;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
+	padding: 20px 0;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+.nav-link {
+	color: #ffffff;
+}
+
+.header-title {
+	color: #ffffff;
 }
